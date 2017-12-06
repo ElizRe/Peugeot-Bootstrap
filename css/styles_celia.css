@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px) {
+	.menuResponsive {
+		display: none;
+	}
+	.container.menuprincipal {
+	display: none;
+}
+}
+
+header {
+	background-color: #162133;
+	display: flex;
+}
+
+
+.menuResponsive {
+	color: white;
+	font-size: 0.6em;
+}
+
+.container.logopeugeot {
+	width: 10%;
+}
+
+.container.menuprincipal {
+	width: 90%;
+}
+
+.logopeugeot {
+	width: 100px;
+	z-index: 10;
+	margin-top: 10px;
+}
+
+.material-icons {
+	color: white;
+}
+
+.navbar.navbar-default {
+	background-color: #162133;
+	border-color: #162133;
+	height: 20px;
+}
+
+.navbar.navbar-default:nth-child(2) {
+	font-size: 0.6em;
+	cursor:pointer;
+}
+
+.testslider {
+	color: white;
+	background-color: #162133;
+	padding: 10px;
+}
