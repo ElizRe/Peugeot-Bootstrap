@@ -3,7 +3,6 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
   margin-left: 2%;
@@ -16,7 +15,7 @@ body {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+margin-top: 3rem;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -48,6 +47,28 @@ body {
   height: 32rem;
 }
 
+.btn.btn-light {
+  margin-top: 3px;
+  border-radius: 0px;
+}
+
+.btn.btn-light.petit {
+  font-size: 12px;
+  width:80px;
+  height:30px;
+}
+
+.btn.btn-light.grand {
+  font-size: 12px;
+  width:170px;
+  height: 30px;
+}
+
+.btn.btn-light:hover {
+  color:#209cee;
+  font-weight: 900;
+  cursor: pointer;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -63,6 +84,16 @@ body {
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
+}
+
+.carousel-control-prev {
+  width:20px;
+  background-color:red;
+}
+
+.carousel-control-next {
+  width:20px;
+  background-color:red;
 }
 
 
